@@ -2,6 +2,8 @@ def add(a:int,b:int):
     return a + b
 def subtract(a:int,b:int):
     return a - b
+def multiply(a:int,b:int):
+    return a * b
 try:
     operation = input("Enter the operation you want to perform (add/subtract): ").strip().lower()
     if operation not in ['add', 'subtract']:
