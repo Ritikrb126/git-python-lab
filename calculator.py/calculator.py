@@ -16,6 +16,10 @@ try:
         a = int(input("Enter the first number: "))
         b = int(input("Enter the second number: "))
         print(subtract(a,b))
+    elif operation == 'multiply':
+        a = int(input("Enter the first number: "))
+        b = int(input("Enter the second number: "))
+        print(multiply(a,b))
 except ValueError as e:
     print(f"Error: {e}")
 print("Oop")
